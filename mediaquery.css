@@ -1,9 +1,12 @@
-@media (max-width: 1070px) {
+@media (max-width: 1023px) {
   body {
     margin-bottom: 1%;
   }
   nav {
     padding: 0 1rem;
+  }
+  .logo img {
+    width: 85%;
   }
   .hamburger {
     display: block;
@@ -86,6 +89,18 @@
 }
 
 @media (max-width: 425px) {
+  nav {
+    height: 3rem;
+  }
+  .nav-menu {
+    top: 3rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 65%;
+  }
   footer {
     height: fit-content;
     flex-direction: column;
