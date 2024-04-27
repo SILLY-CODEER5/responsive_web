@@ -81,21 +81,6 @@ nav {
 .nav-item {
   list-style: none;
 }
-/* .nav-items a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        transition: 0.3s ease-in-out;
-        padding: 0.5rem 1rem;
-      }
-      .nav-items a:hover {
-        color: rgb(230, 27, 12);
-        border-radius: 50px;
-        background-color: beige;
-      } */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -110,7 +95,6 @@ nav {
   background-color: rgb(255, 255, 255);
 }
 li {
-  /* text-decoration: none; */
   list-style: none;
 }
 a {
@@ -135,7 +119,7 @@ a {
 }
 #hero {
   width: 100%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .page2 {
   background-image: url(ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
